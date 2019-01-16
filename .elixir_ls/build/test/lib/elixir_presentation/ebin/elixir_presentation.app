@@ -1,0 +1,10 @@
+{application,elixir_presentation,
+             [{applications,[kernel,stdlib,elixir,logger]},
+              {description,"elixir_presentation"},
+              {modules,['Elixir.Banker','Elixir.Counter',
+                        'Elixir.DifferentWays','Elixir.Fib',
+                        'Elixir.FirstClassCitizens','Elixir.ListCmp',
+                        'Elixir.PatternMatching','Elixir.Pipes',
+                        'Elixir.PureFunctions','Elixir.Recursion']},
+              {registered,[]},
+              {vsn,"0.1.0"}]}.
